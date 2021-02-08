@@ -1,0 +1,94 @@
+<html>
+<head>
+    <style>
+        	body {text-align: justify;margin-left:  100px;
+            margin-top: -144px;
+            margin-right:  100px;}
+        tr{
+            width: 200px;
+            height: auto;
+        }
+        td, th {
+		border: 1px solid #dddddd;
+		text-align: centre;
+        width: 800px;
+        height: 50px;
+		padding: 4px;
+	  }
+    </style>
+    <title>Form</title>
+</head>
+<body>
+    <h1>FRAME 3</h1>
+   <table cellspacing="4" border="4px">
+    <form method="GET">
+        <tr>
+            <td><h1 align="center">G-FORM</h1></td>
+        </tr>
+        <tr>
+        <td><h3><u><b>NAME FIELD</b></u></h3></td>
+    </tr>
+    <tr>
+        <td><h3>Fname: 
+        <input  type="text" size="70px" name="fname" placeholder="Name" required></h3></td>
+    </tr>
+    <tr>
+        <td><h3>Lname:
+        <input type="text" size="70px" name="fname" placeholder="Name" required>
+        </h3></td>
+    </tr>
+    <tr>
+        <td><h3>E-Mail:
+        <input type="text" size="70px" name="mail" placeholder="abc@gmail.com" required>
+        </h3></td>
+    </tr>
+    <tr>        
+        <td><h3>password:
+        <input type="password" size="70px" name="pass" placeholder="abc123@123" required></h3></td>
+    </tr>
+    <tr>
+        <td><h3>Gender:
+            <input list="Gender" placeholder="Gender" name="Gender" required>
+            <datalist id="Gender">
+            <option value="Male">
+            <option value="Female">             
+            <option value="Other">
+            </h3></td> 
+        </tr>  
+    <tr>  
+        <td><h2><u>Description:</u></h2><br>
+        <textarea rows="5" cols="78" name= "description" required>
+        </textarea></td>
+    </tr>
+    <tr>    
+        <br>
+        <br>
+        <td><h2><u>Please select your subjects...</u><br><br></h2></td>
+    </tr>   
+    <tr>
+        <td><h3>Maths:
+        <input type="checkbox" name="maths" ></h3></td>
+        <br>
+    </tr>
+    <tr>
+        <td><h3>physics:
+        <input type="checkbox" name="phy"></h3>
+    </td>
+    </tr>
+    <tr>
+        <br><td><h3>chemistry:
+        <input type="checkbox" name="chemistry" ></h3></td>
+    </tr>
+    <tr>
+        <br><td><h3>computer Science:
+        <input type="checkbox" name="cs" ></h3></td>
+    </tr>
+        <br><br>   
+        <br>
+    <tr>
+        <td><input type="submit" name="submit" value="submit"></td>
+    </tr>
+    </form>
+</table>    
+</body>
+</html>

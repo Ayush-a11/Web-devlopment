@@ -1,0 +1,84 @@
+input[type=text] {
+    background-color: rgb(93, 68, 134);
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    width: 100%;
+    height: 100%;
+
+}
+.Mainframe{
+    background-color: rgb(8, 8, 8);
+    height: 460px;
+    width: 390px;
+    position: relative;
+    align-self: center;
+    margin-top: 100px;
+    margin-left: 40%;
+}
+.frame2{
+    background-color: rgb(34, 36, 35);
+    height: 385px;
+    width: 100px;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 277px;
+    margin-top: 10px;
+}
+.Input{
+    color: aliceblue;
+    width: 260px;
+    height: 100px;
+    margin-left: 3px;
+    margin-top: 10px;
+    
+}
+
+.red{
+    background-color: rgb(41, 38, 38);
+    color: black;
+    height: 50px;
+    width: 60px;
+    margin-left: 3px;
+}
+.red:hover{
+    background-color: rgb(255, 0, 0);
+    
+}
+.blue{
+    background-color:rgb(41, 38, 38) ;
+    color:black;
+    height: 50px;
+    width: 82px;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.blue:hover{
+    background-color: rgb(28, 28, 209);
+}
+.sred{
+    background-color: rgb(41, 38, 38);
+    color: black;
+    height: 50px;
+    width: 70px;
+    margin-left: 15px;
+    margin-top: 24px;
+}
+.sred:hover{
+    background-color: blueviolet;
+}
+.zero{
+    background-color: rgb(41, 38, 38);
+    color: black;
+    width: 80px;
+    height: 50px;
+    margin-left: 92px;
+    margin-top: 0px;
+    margin-bottom: 5px;      
+}
+.zero:hover{
+    background-color: blue;
+}

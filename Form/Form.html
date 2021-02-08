@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">  
+<title>Form</title>
+</head>
+    <body>
+        <section class="main">
+            <form>    
+            <h1 align="center"><b>Please Enter your details</b></h1>
+            <h3 align="center">Fill this application form below and submit.</h3>
+            <br>
+            <h3>Name*<input id="name"size="10px"type="text" placeholder="First Name" required>
+            <input size="10px" type="text" placeholder="Last Name"></h3>  
+            <h3>E-Mail Address*<input size="60px"type="E-Mail" placeholder="Mail@example.com">
+            </h3>
+            <h3>Phone Number*<input size="60px" type="text" placeholder="Phone Number"></h3>
+            <br>
+            <h3>Gender*<input list="Gender" placeholder="Gender" name="Gender" required>
+                <datalist id="Gender">
+                <option value="Male">
+                <option value="Female">             
+                <option value="Other">           
+            </h3>
+            <br>
+            <h3>Citizen*<input list="Country" placeholder="First Name">
+                <datalist id="Country">
+                <option value="India">
+                <option value="Pakistan">
+                <option value="srilanka">                                      
+            </h3>
+            <br>
+            <h3>Date of birth*<input type="date" placeholder="DOB"></h3>
+            <br>
+            <h3>Address*<input type="text" placeholder="Street Address"><input type="text" placeholder="Street Line 2"><br>
+            <input type="text"placeholder="Landmark" required><input type="text" placeholder="City"><br>
+            <input type="text"placeholder="State province" required><input type="Postal/zip code" placeholder="City"><br>
+            </h3>
+        </form>
+        </section>
+    </body>
+
+</html>

@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div class="Mainframe">
+            <form method="GET">
+            <div class="a">
+                <h1 style="color:black;" align="center" text>Create Account</h1>
+            </div>
+            <table  cellspacing="0" border="0px">
+            <tr>
+                <td><h2 class="bb">First Name *</h2></td>
+                <td><h2 class="bb">Last Name</h2></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="enter your first name" required></td>
+                <td><input type="text" placeholder="enter your last name"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h2 class="bb">Email*</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" placeholder="enter your email" required>
+                </td>
+            </tr>
+            <tr>
+                <td><h2 class="bb">Password *</h2></td>
+                <td><h2 class="bb">Confirm Password *</h2></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="enter your Password" required></td>
+                <td><input type="text" placeholder="Confirm Password" required></td>
+            </tr>
+            <tr>
+                <td><h2 class="bb">Gender</h2></td>
+                <td><h2 class="bb">Hobbies</h2></td>
+            </tr>
+            <tr>
+                <td>
+                <input type="radio" name="gender"> Male
+                <input type="radio"name="gender">Female
+                </td>
+                <td>
+                    <input type="checkbox">Music
+                    <input type="checkbox">Sports
+                    <input type="checkbox">Travel
+                    <input type="checkbox">Movies
+                </td>
+            </tr>
+            <tr>
+                <td><h2 class="bb">Source of income</h2></td>
+                <td><h2 class="bb">income</h2></td>
+            </tr>
+            <tr>
+                <td><select style="width: 100%;height: 40px;" name="Source" id="Source">
+                    <option value="Employed">Employed</option>
+                    <option value="Unemployed">Unemployed</option>
+                    <option value="part-time">part-time</option>
+                </select>
+                </td>
+
+                <td>
+                    <input style="width: 400px;height: 40px;" type="range" value="0" max="20" oninput="num.value = this.value">
+                    <output id="num">0</output>
+                </td>
+            </tr>
+            <tr>
+                <td><h2 class="bb">Upload your profile picture</h2></td>
+                <td><h2 class="bb">Age</h2></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="file" id="myFile" name="filename">
+                </td>
+                <td><input type="text" placeholder="enter your Age" ></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h2 class="bb">Bio</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="input3" type="textarea">
+                </td>
+            </tr>
+            
+        </table>   
+        <div class="create">
+            <h1><input class="input2" type="submit" value="submit" ></h1>
+        </div>
+    </form>
+    </div>
+        
+    </body>
+</html>

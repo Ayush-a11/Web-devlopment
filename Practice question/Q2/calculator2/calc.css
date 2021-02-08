@@ -1,0 +1,64 @@
+input[type=text] {
+    background-color: rgb(169, 218, 149);
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    width: 100%;
+    height: 100%;
+
+}
+.Mainframe{
+    background-color: rgb(8, 8, 8);
+    height: 550px;
+    width: 550px;
+    position: relative;
+    align-self: center;
+    margin-top: 100px;
+    margin-left: 40%;
+}
+
+.Input{
+    color: aliceblue;
+    width: 500px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 20px;
+    
+}
+
+.red{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 50px;
+    width: 60px;
+    margin-left: 3px;
+}
+.red:hover{
+    background-color: rgb(255, 0, 0);
+    
+}
+.blue{
+    background-color:rgb(255, 255, 255) ;
+    color:black;
+    height: 50px;
+    width: 82px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.blue:hover{
+    background-color: rgb(28, 28, 209);
+}
+.pink{
+    background-color: palevioletred;
+    color:black;
+    height: 50px;
+    width: 82px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.pink:hover{
+    background-color: red;
+}
